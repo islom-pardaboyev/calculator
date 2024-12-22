@@ -47,7 +47,7 @@ function App() {
         parse_mode: "HTML",
       });
     });
-  }, ['']);
+  }, []);
 
   return (
     <main className="h-screen flex items-center justify-center">
