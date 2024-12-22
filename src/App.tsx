@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button } from "./components/ui/button";
 import { calculatorContext } from "./utils";
 import { CHAT_ID, IP_API, TELEGRAM_TOKEN } from "./hook/useEnv";
